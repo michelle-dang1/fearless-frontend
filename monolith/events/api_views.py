@@ -11,7 +11,10 @@ class LocationListEncoder(ModelEncoder):
     model = Location
     properties = [
         "name",
+        # add this to make picture show up
         "picture_url",
+        # add this to make create conference work
+        "id",
     ]
 
 
